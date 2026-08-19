@@ -437,7 +437,7 @@ export const OrderFormSection: React.FC<OrderFormSectionProps> = ({
                 className="w-full py-4 px-6 bg-[#6050af] text-white rounded-2xl font-['Manrope'] font-extrabold text-base uppercase tracking-wider hover:bg-[#483795] transition-all shadow-[0_8px_25px_rgba(96,80,175,0.4)] active:scale-95 flex items-center justify-center gap-2 disabled:opacity-70 cursor-pointer"
               >
                 <Sparkles className="w-5 h-5" />
-                <span>{isSubmitting ? 'ĐANG BẢO MẬT & TẠO ĐƠN...' : 'HOÀN TẤT ĐẶT HÀNG NGAY'}</span>
+                <span>{isSubmitting ? 'ĐANG XỬ LÝ ĐƠN HÀNG...' : 'HOÀN TẤT ĐẶT HÀNG NGAY'}</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
 
