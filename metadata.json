@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Essence S1 6-in-1",
+  "description": "Trang giới thiệu và trải nghiệm tương tác Máy Di Tinh Chất S1 6 trong 1 với công nghệ EMS, sóng siêu âm, nhiệt hồng ngoại và ánh sáng sinh học.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

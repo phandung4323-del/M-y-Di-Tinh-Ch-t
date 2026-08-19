@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8f7ff;
+    color: #1c1b1b;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', sans-serif;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 217, 243, 0.6);
+  box-shadow: 0 4px 20px rgba(96, 80, 175, 0.06);
+}
+
+.glass-card-elevated {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 217, 243, 0.8);
+  box-shadow: 0 10px 30px rgba(96, 80, 175, 0.12);
+}
+
+.soft-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.glow-shadow {
+  box-shadow: 0 0 20px rgba(157, 141, 241, 0.45);
+}
+
+.glow-shadow-blue {
+  box-shadow: 0 0 20px rgba(96, 165, 250, 0.45);
+}
+
+.glow-shadow-red {
+  box-shadow: 0 0 20px rgba(248, 113, 113, 0.45);
+}
+
+.bg-gradient-lavender {
+  background: linear-gradient(135deg, #f6f3f2 0%, #E2D9F3 100%);
+}
+
+.bg-gradient-lavender-subtle {
+  background: linear-gradient(180deg, #fcf9f8 0%, #f1ecfa 100%);
+}
+
+@keyframes pulse-gentle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulse-gentle {
+  animation: pulse-gentle 3s ease-in-out infinite;
+}
+
+@keyframes wave-ripple {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+.animate-wave {
+  animation: wave-ripple 2s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+}
+
