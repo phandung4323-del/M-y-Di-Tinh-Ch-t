@@ -86,14 +86,14 @@ export const SixInOneFeatures: React.FC = () => {
   const [selectedMode, setSelectedMode] = useState<string | null>(null);
 
   return (
-    <section id="six-modes" className="py-14 sm:py-20 px-4 sm:px-6 bg-[#160f2e] text-white relative overflow-hidden">
+    <section id="six-modes" className="py-8 sm:py-12 px-4 sm:px-6 bg-[#160f2e] text-white relative overflow-hidden">
       {/* Background accents */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-[#6050af]/15 rounded-full blur-[120px] pointer-events-none"></div>
 
       <div className="max-w-5xl mx-auto relative z-10">
         
         {/* Section Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-amber-400/15 border border-amber-400/30 rounded-full text-amber-300 text-xs font-bold uppercase tracking-widest mb-3">
             <Sparkles className="w-3.5 h-3.5" />
             <span>ĐA NĂNG TOÀN DIỆN</span>

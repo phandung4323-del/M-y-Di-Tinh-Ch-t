@@ -3,24 +3,24 @@ import { Bug, Sparkles, Frown, EyeOff, AlertTriangle, Moon, Check, ArrowRight } 
 
 export const ProblemSection: React.FC = () => {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-[#fcf9f8]">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 bg-[#fcf9f8]">
       <div className="max-w-4xl mx-auto">
         {/* Section 1: Skincare Mistakes & Underlying Causes */}
-        <div className="text-center mb-10">
-          <span className="inline-block px-3 py-1 bg-[#ffdad6] text-[#93000a] rounded-full text-xs font-bold uppercase tracking-wider mb-3">
+        <div className="text-center mb-6">
+          <span className="inline-block px-3 py-1 bg-[#ffdad6] text-[#93000a] rounded-full text-xs font-bold uppercase tracking-wider mb-2">
             Vấn Đề Thường Gặp
           </span>
           <h2 className="font-['Manrope'] font-bold text-2xl sm:text-3xl text-[#1c1b1b] leading-snug">
             DA ĐƯỢC CHĂM SÓC HẰNG NGÀY<br />
             <span className="text-[#615b71] font-medium">NHƯNG BẠN ĐÃ CHĂM ĐÚNG CÁCH?</span>
           </h2>
-          <p className="text-sm text-[#5d5e65] mt-2 max-w-xl mx-auto">
+          <p className="text-sm text-[#5d5e65] mt-1 max-w-xl mx-auto">
             Dù bôi kem dưỡng đắt tiền hàng triệu đồng, 85% dưỡng chất chỉ nằm trên bề mặt nếu không có công nghệ đẩy ion và nhiệt ấm hỗ trợ.
           </p>
         </div>
 
         {/* 4 Problem Cards Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-6">
           {/* Card 1 */}
           <div className="glass-card p-4 sm:p-5 rounded-2xl flex flex-col items-center text-center hover:border-[#9d8df1] transition-all group">
             <div className="w-12 h-12 bg-[#ffdad6] text-[#ba1a1a] rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">

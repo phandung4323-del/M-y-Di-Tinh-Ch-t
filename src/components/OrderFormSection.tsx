@@ -16,7 +16,7 @@ export const OrderFormSection: React.FC<OrderFormSectionProps> = ({
   onApplyVoucher,
   onOrderSuccess
 }) => {
-  const [selectedPackage, setSelectedPackage] = useState<ProductPackage>(PRODUCT_PACKAGES[1]); // Default to popular combo
+  const [selectedPackage, setSelectedPackage] = useState<ProductPackage>(PRODUCT_PACKAGES[0]);
   const [selectedColor, setSelectedColor] = useState<'Lavender Purple' | 'Pearl White' | 'Rose Gold'>('Lavender Purple');
   
   // Form fields
@@ -179,10 +179,10 @@ export const OrderFormSection: React.FC<OrderFormSectionProps> = ({
   };
 
   return (
-    <section id="order-form-final" className="py-12 sm:py-16 px-4 sm:px-6 bg-gradient-lavender rounded-t-[2.5rem]">
+    <section id="order-form-final" className="py-8 sm:py-12 px-4 sm:px-6 bg-gradient-lavender rounded-t-[2.5rem]">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <span className="inline-block px-3.5 py-1 bg-[#ffdad6] text-[#ba1a1a] rounded-full text-xs font-bold uppercase tracking-wider mb-2 animate-pulse">
             Chương Trình Ưu Đãi Trực Tiếp Từ Nhà Máy
           </span>
@@ -370,35 +370,6 @@ export const OrderFormSection: React.FC<OrderFormSectionProps> = ({
                   placeholder="Giao giờ hành chính, gọi trước khi giao..."
                   className="w-full px-4 py-2.5 rounded-xl border border-[#c9c4d3] bg-[#fcf9f8] text-xs focus:outline-none focus:ring-2 focus:ring-[#6050af]"
                 />
-              </div>
-
-              {/* Voucher Code Input */}
-              <div className="pt-2">
-                <div className="flex gap-2">
-                  <div className="relative flex-1">
-                    <Tag className="w-4 h-4 text-[#797583] absolute left-3 top-3" />
-                    <input
-                      type="text"
-                      value={voucherInput}
-                      onChange={(e) => setVoucherInput(e.target.value)}
-                      placeholder="Nhập mã giảm giá (VD: DEPCHUANSPA50)"
-                      className="w-full pl-9 pr-3 py-2.5 rounded-xl border border-[#c9c4d3] text-xs bg-[#fcf9f8] uppercase"
-                    />
-                  </div>
-                  <button
-                    type="button"
-                    onClick={handleApplyVoucherCode}
-                    className="py-2.5 px-4 bg-[#e6deff] text-[#6050af] rounded-xl text-xs font-bold hover:bg-[#c9beff] transition-colors"
-                  >
-                    Áp Dụng
-                  </button>
-                </div>
-                {voucherSuccess && (
-                  <p className="text-xs text-emerald-700 font-semibold mt-1">✓ Đã áp dụng mã DEPCHUANSPA50 (-50.000đ)</p>
-                )}
-                {voucherError && (
-                  <p className="text-xs text-rose-600 mt-1">{voucherError}</p>
-                )}
               </div>
 
               {/* Payment Method */}

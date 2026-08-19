@@ -87,9 +87,9 @@ export const RoutineTimerSection: React.FC = () => {
   const totalRoutineMinutes = ROUTINE_STEPS.reduce((acc, s) => acc + s.durationMinutes, 0);
 
   return (
-    <section id="routine-timer" className="py-12 sm:py-16 px-4 sm:px-6 bg-[#fcf9f8]">
+    <section id="routine-timer" className="py-8 sm:py-10 px-4 sm:px-6 bg-[#fcf9f8]">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <span className="inline-block px-3 py-1 bg-[#e6deff] text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-2">
             Liệu Trình Chuẩn Y Khoa
           </span>
@@ -102,7 +102,7 @@ export const RoutineTimerSection: React.FC = () => {
         </div>
 
         {/* Routine Player Card */}
-        <div className="bg-white rounded-3xl border border-[#e2d9f3] p-6 sm:p-8 shadow-lg mb-8">
+        <div className="bg-white rounded-3xl border border-[#e2d9f3] p-6 sm:p-8 shadow-lg mb-4">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
             {/* Step Selector List */}
             <div className="md:col-span-7 space-y-3">

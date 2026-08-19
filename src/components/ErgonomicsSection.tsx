@@ -4,12 +4,12 @@ import purpleImg from '../assets/images/s1_purple_hero_1787038880318.jpg';
 
 export const ErgonomicsSection: React.FC = () => {
   return (
-    <section id="ergonomics" className="py-14 sm:py-20 px-4 sm:px-6 bg-[#fcf9f8] relative overflow-hidden">
+    <section id="ergonomics" className="py-8 sm:py-10 px-4 sm:px-6 bg-[#fcf9f8] relative overflow-hidden">
       <div className="max-w-5xl mx-auto">
         
         {/* Section Header matching Poster 4 */}
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-[#e6deff] text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-3 border border-[#c9beff]">
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-[#e6deff] text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-2 border border-[#c9beff]">
             <Sparkles className="w-3.5 h-3.5" />
             <span>NHỎ GỌN • DỄ CẦM • TIỆN SỬ DỤNG</span>
           </div>
@@ -17,13 +17,13 @@ export const ErgonomicsSection: React.FC = () => {
           <h2 className="font-['Manrope'] font-black text-2xl sm:text-4xl text-[#1c1b1b] uppercase tracking-tight">
             THIẾT KẾ CAO CẤP – TINH TẾ TỪNG CHI TIẾT
           </h2>
-          <p className="text-sm sm:text-base text-[#484552] mt-2 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base text-[#484552] mt-1 max-w-2xl mx-auto">
             Gọt giũa hoàn hảo trên từng đường cong kim loại, mang lại trải nghiệm cầm nắm êm ái và sang trọng chuẩn quý cô.
           </p>
         </div>
 
         {/* 3 Callout Cards matching Poster 4 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-6">
           
           {/* Detail 1: Viền mạ sáng bóng */}
           <div className="bg-white p-6 rounded-3xl soft-shadow border border-[#e5e2e1] hover:border-[#6050af] transition-all group flex flex-col justify-between">

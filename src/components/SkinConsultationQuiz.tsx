@@ -64,7 +64,7 @@ export const SkinConsultationQuiz: React.FC<{ onApplyVoucher: (code: string) => 
   };
 
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-[#f8f7ff]">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 bg-[#f8f7ff]">
       <div className="max-w-3xl mx-auto bg-white rounded-3xl border border-[#e2d9f3] p-6 sm:p-8 shadow-md">
         <div className="text-center mb-6">
           <div className="inline-flex items-center gap-1 px-3 py-1 bg-[#e6deff] rounded-full text-[#6050af] text-xs font-bold uppercase mb-2">

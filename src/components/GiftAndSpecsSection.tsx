@@ -3,8 +3,8 @@ import { Gift, Award, CheckCircle, Package, ShieldCheck } from 'lucide-react';
 
 export const GiftAndSpecsSection: React.FC = () => {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-[#f6f3f2]">
-      <div className="max-w-4xl mx-auto space-y-12">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 bg-[#f6f3f2]">
+      <div className="max-w-4xl mx-auto space-y-6">
         {/* Gift Box Spotlight */}
         <div className="text-center border-2 border-[#6050af]/20 rounded-3xl p-6 sm:p-8 bg-white relative shadow-sm">
           <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#6050af] text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm flex items-center gap-1.5">

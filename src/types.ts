@@ -35,6 +35,8 @@ export interface CustomerReview {
   verified: boolean;
   skinType: string;
   avatarBg: string;
+  avatarUrl?: string;
+  productPhotoUrl?: string;
 }
 
 export interface OrderData {

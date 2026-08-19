@@ -7,8 +7,8 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ onOpenAdmin }) => {
   return (
-    <footer className="bg-[#1c1b1b] text-white pt-12 pb-24 md:pb-12 px-4 sm:px-6">
-      <div className="max-w-4xl mx-auto space-y-8">
+    <footer className="bg-[#1c1b1b] text-white pt-8 pb-20 md:pb-8 px-4 sm:px-6">
+      <div className="max-w-4xl mx-auto space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Col */}
           <div>
@@ -45,7 +45,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAdmin }) => {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#9d8df1] shrink-0 mt-0.5" />
-                <span>Tòa nhà Innovation Hub, Quận 1, TP. Hồ Chí Minh</span>
+                <span>Quận 1, TP. Hồ Chí Minh</span>
               </li>
             </ul>
           </div>

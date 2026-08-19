@@ -7,8 +7,8 @@ export const TechnologyDeepDive: React.FC = () => {
   const [selectedLevel, setSelectedLevel] = useState<number>(2);
 
   return (
-    <section className="py-14 sm:py-20 px-4 sm:px-6 bg-[#f8f7ff] space-y-12">
-      <div className="max-w-5xl mx-auto space-y-12">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 bg-[#f8f7ff] space-y-6">
+      <div className="max-w-5xl mx-auto space-y-6">
         
         {/* Technology Highlight 1: Ultrasonic Sonic Cleansing (Poster 10) */}
         <div className="bg-gradient-to-r from-[#1b1435] to-[#26174a] text-white rounded-3xl p-6 sm:p-10 shadow-2xl border border-purple-400/20 overflow-hidden">

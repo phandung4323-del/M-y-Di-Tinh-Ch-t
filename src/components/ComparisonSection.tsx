@@ -4,9 +4,9 @@ import { Check, X, Sparkles } from 'lucide-react';
 
 export const ComparisonSection: React.FC = () => {
   return (
-    <section id="comparison" className="py-12 sm:py-16 px-4 sm:px-6 bg-[#fcf9f8]">
+    <section id="comparison" className="py-8 sm:py-10 px-4 sm:px-6 bg-[#fcf9f8]">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-8">
+        <div className="text-center mb-6">
           <span className="inline-block px-3 py-1 bg-[#e6deff] text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-2">
             Phân Tích So Sánh
           </span>

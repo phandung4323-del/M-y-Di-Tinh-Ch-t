@@ -49,7 +49,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreModes, onOpen
   const currentVariant = COLOR_VARIANTS[selectedColor];
 
   return (
-    <section className="relative pt-28 sm:pt-32 md:pt-36 pb-12 sm:pb-16 px-4 sm:px-6 bg-gradient-to-b from-[#1b1435] via-[#241b47] to-[#160f2e] text-white overflow-hidden rounded-b-[2.5rem] shadow-xl">
+    <section className="relative pt-24 sm:pt-28 md:pt-32 pb-8 sm:pb-10 px-4 sm:px-6 bg-gradient-to-b from-[#1b1435] via-[#241b47] to-[#160f2e] text-white overflow-hidden rounded-b-[2.5rem] shadow-xl">
       {/* Background Luminous Auras */}
       <div className="absolute top-10 left-1/4 w-96 h-96 bg-[#7052c9]/25 rounded-full blur-[100px] pointer-events-none"></div>
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#c4a1ff]/20 rounded-full blur-[100px] pointer-events-none"></div>
@@ -57,7 +57,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreModes, onOpen
       <div className="max-w-5xl mx-auto relative z-10">
         
         {/* Top Gold Luxury Heading Poster Style */}
-        <div className="text-center mb-8 animate-fade-in flex flex-col items-center">
+        <div className="text-center mb-6 animate-fade-in flex flex-col items-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-amber-300 font-['Plus_Jakarta_Sans'] text-xs sm:text-sm uppercase tracking-wider mb-4 border border-amber-400/30 shadow-sm max-w-full">
             <Sparkles className="w-4 h-4 text-amber-300 shrink-0" />
             <span className="font-bold whitespace-normal text-center">CÔNG NGHỆ CHĂM SÓC DA TOÀN DIỆN 2026</span>
@@ -117,12 +117,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreModes, onOpen
                 referrerPolicy="no-referrer"
                 className="max-w-full max-h-full object-contain relative z-10 rounded-2xl drop-shadow-[0_20px_35px_rgba(0,0,0,0.5)] transform transition-all duration-500 hover:scale-105 animate-fade-in"
               />
-
-              {/* Tag overlay */}
-              <div className="absolute top-2 right-0 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full shadow-lg text-[11px] font-bold text-[#6050af] border border-purple-200 z-20 flex items-center gap-1.5 animate-bounce">
-                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                <span>{currentVariant.tagline}</span>
-              </div>
             </div>
 
             {/* Color Swatches */}

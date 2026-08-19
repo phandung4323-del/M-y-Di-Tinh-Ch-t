@@ -8,7 +8,7 @@ export const SkinTransformationGallery: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'moisture' | 'acne' | 'cleanse'>('moisture');
 
   return (
-    <section className="py-14 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-[#1b1435] to-[#120d24] text-white relative overflow-hidden">
+    <section className="py-8 sm:py-12 px-4 sm:px-6 bg-gradient-to-b from-[#1b1435] to-[#120d24] text-white relative overflow-hidden">
       {/* Luminous accents */}
       <div className="absolute top-1/2 left-0 w-80 h-80 bg-[#7052c9]/20 rounded-full blur-[100px] pointer-events-none"></div>
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-[#a78bfa]/20 rounded-full blur-[100px] pointer-events-none"></div>
@@ -16,7 +16,7 @@ export const SkinTransformationGallery: React.FC = () => {
       <div className="max-w-5xl mx-auto relative z-10">
         
         {/* Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-amber-400/15 border border-amber-400/30 rounded-full text-amber-300 text-xs font-bold uppercase tracking-widest mb-3">
             <Sparkles className="w-3.5 h-3.5" />
             <span>KẾT QUẢ KIỂM CHỨNG THỰC TẾ</span>

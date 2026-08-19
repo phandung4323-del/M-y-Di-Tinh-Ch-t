@@ -18,9 +18,9 @@ export const ReviewsSection: React.FC = () => {
   };
 
   return (
-    <section id="reviews" className="py-12 sm:py-16 px-4 sm:px-6 bg-[#fcf9f8]">
+    <section id="reviews" className="py-8 sm:py-10 px-4 sm:px-6 bg-[#fcf9f8]">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <span className="inline-block px-3 py-1 bg-[#e6deff] text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-2">
             Đánh Giá Thực Tế
           </span>
@@ -51,8 +51,19 @@ export const ReviewsSection: React.FC = () => {
                 {/* Header author & stars */}
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center gap-3">
-                    <div className={`w-10 h-10 rounded-full ${rev.avatarBg} text-white font-bold flex items-center justify-center text-sm shadow-xs`}>
-                      {rev.author.charAt(0)}
+                    <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-[#6050af]/20 shadow-xs shrink-0 bg-[#e6deff] flex items-center justify-center">
+                      {rev.avatarUrl ? (
+                        <img
+                          src={rev.avatarUrl}
+                          alt={rev.author}
+                          referrerPolicy="no-referrer"
+                          className="w-full h-full object-cover object-center"
+                        />
+                      ) : (
+                        <span className="text-white font-bold text-sm">
+                          {rev.author.charAt(0)}
+                        </span>
+                      )}
                     </div>
                     <div>
                       <div className="flex items-center gap-1.5">

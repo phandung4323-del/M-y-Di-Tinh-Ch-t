@@ -3,11 +3,11 @@ import { Home, Briefcase, Car, Plane, Check, Sparkles, HeartHandshake } from 'lu
 
 export const UseCasesSection: React.FC = () => {
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-[#f6f3f2]">
-      <div className="max-w-4xl mx-auto space-y-12">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 bg-[#f6f3f2]">
+      <div className="max-w-4xl mx-auto space-y-6">
         {/* Use cases: Home / Office / Car */}
         <div>
-          <div className="text-center mb-8">
+          <div className="text-center mb-6">
             <span className="inline-block px-3 py-1 bg-white text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-2 border border-[#e2d9f3]">
               Linh Hoạt Không Giới Hạn
             </span>

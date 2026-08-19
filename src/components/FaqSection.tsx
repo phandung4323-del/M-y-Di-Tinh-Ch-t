@@ -10,9 +10,9 @@ export const FaqSection: React.FC = () => {
   };
 
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 bg-[#f6f3f2]">
+    <section className="py-8 sm:py-10 px-4 sm:px-6 bg-[#f6f3f2]">
       <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <span className="inline-block px-3 py-1 bg-white text-[#6050af] rounded-full text-xs font-bold uppercase tracking-wider mb-2 border border-[#e2d9f3]">
             Giải Đáp Thắc Mắc
           </span>

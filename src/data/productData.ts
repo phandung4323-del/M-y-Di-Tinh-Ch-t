@@ -128,25 +128,7 @@ export const PRODUCT_PACKAGES: ProductPackage[] = [
     gifts: [
       '1x Thân máy S1 Precision chính hãng',
       '1x Cáp sạc Type-C siêu nhanh',
-      '1x Vòng cố định bông tẩy trang chuyên dụng',
-      '1x Sách hướng dẫn sử dụng tiếng Việt',
       '1x Thẻ bảo hành 12 tháng 1 đổi 1'
-    ],
-    isPopular: false
-  },
-  {
-    id: 'combo_vip',
-    name: 'Combo Trẻ Hóa Chuyên Sâu (+ Gel Nâng Cơ)',
-    badge: 'BÁN CHẠY NHẤT ★',
-    originalPrice: 1750000,
-    salePrice: 899000,
-    discountPercent: 48,
-    gifts: [
-      'Toàn bộ phụ kiện bản tiêu chuẩn',
-      'TẶNG 1 Tuýp Gel Dẫn Điện Nâng Cơ Cao Cấp 150ml (Trị giá 250k)',
-      'TẶNG 1 Hộp 100 Miếng Bông Tẩy Trang Chuyên Dụng (Trị giá 50k)',
-      'Miễn phí vận chuyển hỏa tốc toàn quốc',
-      'Đặc quyền ưu tiên đổi mới trong 30 ngày'
     ],
     isPopular: true
   },
@@ -159,9 +141,8 @@ export const PRODUCT_PACKAGES: ProductPackage[] = [
     discountPercent: 49,
     gifts: [
       '2x Máy S1 Precision (Tùy chọn màu sắc)',
-      'TẶNG 2 Tuýp Gel Dẫn Điện Cao Cấp 150ml',
+      '2x Thẻ bảo hành 12 tháng 1 đổi 1',
       'TẶNG 2 Hộp Bông Chuyên Dụng',
-      'Túi quà tặng Premium Gift Box sang trọng',
       'Miễn phí giao hàng & Kiểm tra trước khi thanh toán'
     ],
     isPopular: false
@@ -179,7 +160,8 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     comment: 'Mình dùng serum Estee Lauder trước đây toàn bôi tay thấy thẩm thấu chậm. Từ khi sắm em S1 này, mỗi tối bật chế độ Infuse rồi chuyển sang EMS nâng cơ, da sáng mịn thấy rõ! Nọng cằm cảm giác gọn hơn hẳn, máy cầm rất vừa tay và sang.',
     verified: true,
     skinType: 'Da hỗn hợp thiên dầu, có nọng cằm',
-    avatarBg: 'bg-purple-600'
+    avatarBg: 'bg-purple-600',
+    avatarUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80'
   },
   {
     id: 'rev-2',
@@ -191,7 +173,8 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     comment: 'Làm việc văn phòng nhìn màn hình nhiều mắt thâm và mỏi. Buổi tối mình dùng chế độ Chăm sóc mắt 40°C siêu dễ chịu, rồi chuyển sang Làm lạnh se khít chân lông. Sáng hôm sau dậy mắt không còn sưng nữa. Rất đáng đồng tiền.',
     verified: true,
     skinType: 'Da nhạy cảm, quầng thâm mắt',
-    avatarBg: 'bg-rose-600'
+    avatarBg: 'bg-rose-600',
+    avatarUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80'
   },
   {
     id: 'rev-3',
@@ -203,7 +186,8 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     comment: 'Máy có hộp quà Premium Gift Box nhìn sang như đồ tiền triệu. Mẹ mình năm nay 52 tuổi dùng chế độ Chống nhăn nhiệt đỏ 42°C rất thích, bảo da mềm hơn và rãnh cười đỡ sâu. Giao hàng hỏa tốc 2 ngày là nhận được.',
     verified: true,
     skinType: 'Da lão hóa, nhiều nếp nhăn',
-    avatarBg: 'bg-indigo-600'
+    avatarBg: 'bg-indigo-600',
+    avatarUrl: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=200&auto=format&fit=crop&q=80'
   },
   {
     id: 'rev-4',
@@ -215,7 +199,8 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     comment: 'Kẹp bông vào chế độ Cleanse máy rung ấm và hút ion, miếng bông đen ngòm bất ngờ dù vừa rửa mặt xong. Cực kỳ ấn tượng với chất lượng!',
     verified: true,
     skinType: 'Da dầu mụn, lỗ chân lông to',
-    avatarBg: 'bg-teal-600'
+    avatarBg: 'bg-teal-600',
+    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80'
   }
 ];
 

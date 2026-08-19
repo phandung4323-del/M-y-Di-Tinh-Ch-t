@@ -54,10 +54,10 @@ export const InteractiveDeviceSimulator: React.FC = () => {
   };
 
   return (
-    <section id="virtual-tester" className="py-12 sm:py-16 px-4 sm:px-6 bg-[#fcf9f8] relative">
+    <section id="virtual-tester" className="py-8 sm:py-10 px-4 sm:px-6 bg-[#fcf9f8] relative">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#e6deff] rounded-full text-[#6050af] font-['Plus_Jakarta_Sans'] text-xs font-bold uppercase tracking-wider mb-2">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Phòng Thí Nghiệm Ảo</span>
