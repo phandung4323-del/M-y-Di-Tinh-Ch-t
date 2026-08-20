@@ -27,9 +27,9 @@ const MODES_LIST: ModeDetail[] = [
   },
   {
     number: '02',
-    name: 'HỖ TRỢ ĐƯA DƯỠNG CHẤT',
+    name: 'ĐƯA DƯỠNG CHẤT VÀO DA',
     subname: 'Nutrition Import',
-    desc: 'Giúp quá trình chăm sóc da với serum, tinh chất thuận tiện hơn, thẩm thấu tầng sâu.',
+    desc: 'Hỗ trợ serum và tinh chất thấm vào da tốt hơn so với chỉ thoa bằng tay.',
     colorTag: 'text-amber-300',
     badgeBg: 'bg-purple-900/60 border-purple-500/40',
     duration: '4 Phút',
